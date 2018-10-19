@@ -1,0 +1,20 @@
+PODS:
+  - Designer (0.1.0)
+  - Extended (1.0.4)
+
+DEPENDENCIES:
+  - Designer
+  - Extended
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Designer
+    - Extended
+
+SPEC CHECKSUMS:
+  Designer: 898fa6ef36d9bfabc117234cdabefd51dd8110f1
+  Extended: 94fe9d842694e7d81da413f5762d401829bbffd9
+
+PODFILE CHECKSUM: 8ad8c0a6f3b572e69605ea77f0626cd293609ce7
+
+COCOAPODS: 1.6.0.beta.1
