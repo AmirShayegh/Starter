@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4eK-JS-fzB" userLabel="Nav Bar">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="0.0"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3a-ly-BxW">
                                         <rect key="frame" x="187.5" y="0.0" width="0.0" height="0.0"/>
@@ -59,29 +59,19 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="38P-6M-vdl" userLabel="Body">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" red="0.1647058824" green="0.1960784314" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HGr-4y-yn5" userLabel="Status Bar">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
-                                <color key="backgroundColor" red="0.1647058824" green="0.1960784314" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" id="KaL-kO-oni"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.1647058824" green="0.1960784314" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="4eK-JS-fzB" firstAttribute="top" secondItem="HGr-4y-yn5" secondAttribute="bottom" id="4Jl-fd-85U"/>
                             <constraint firstItem="Myk-xz-bHG" firstAttribute="bottom" secondItem="38P-6M-vdl" secondAttribute="bottom" id="70b-fD-Zei"/>
-                            <constraint firstItem="HGr-4y-yn5" firstAttribute="top" secondItem="F0l-8Y-TnY" secondAttribute="top" id="KUL-9a-AzA"/>
+                            <constraint firstItem="4eK-JS-fzB" firstAttribute="top" secondItem="F0l-8Y-TnY" secondAttribute="topMargin" id="FfY-pJ-BPX"/>
                             <constraint firstItem="38P-6M-vdl" firstAttribute="leading" secondItem="Myk-xz-bHG" secondAttribute="leading" id="MVr-f1-7GD"/>
                             <constraint firstItem="4eK-JS-fzB" firstAttribute="trailing" secondItem="Myk-xz-bHG" secondAttribute="trailing" id="MuB-gL-tf0"/>
                             <constraint firstItem="38P-6M-vdl" firstAttribute="top" secondItem="4eK-JS-fzB" secondAttribute="bottom" id="Nj6-sB-ByL"/>
-                            <constraint firstItem="HGr-4y-yn5" firstAttribute="leading" secondItem="F0l-8Y-TnY" secondAttribute="leading" id="Rqy-pE-pKo"/>
                             <constraint firstItem="Myk-xz-bHG" firstAttribute="trailing" secondItem="38P-6M-vdl" secondAttribute="trailing" id="WNj-JF-ZLW"/>
                             <constraint firstItem="4eK-JS-fzB" firstAttribute="leading" secondItem="Myk-xz-bHG" secondAttribute="leading" id="d5d-lG-miF"/>
-                            <constraint firstAttribute="trailing" secondItem="HGr-4y-yn5" secondAttribute="trailing" id="lWC-Im-OUu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Myk-xz-bHG"/>
                     </view>
@@ -92,8 +82,6 @@
                         <outlet property="navBarBackButton" destination="5a3-IH-78h" id="m4R-3X-ilA"/>
                         <outlet property="navBarHeight" destination="77J-ux-jVb" id="u87-rn-4RO"/>
                         <outlet property="pageTitle" destination="j3a-ly-BxW" id="e2d-xb-PxK"/>
-                        <outlet property="statusBar" destination="HGr-4y-yn5" id="6Xz-dH-jPl"/>
-                        <outlet property="statusBarHeight" destination="KaL-kO-oni" id="xub-VQ-5gD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0rY-Pz-MUq" sceneMemberID="firstResponder"/>

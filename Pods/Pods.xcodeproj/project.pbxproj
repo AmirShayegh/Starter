@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -53,7 +53,7 @@
 		0E9EE1CEA0C25F6DD3B9519E2F00D75B /* Designer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Designer-Info.plist"; sourceTree = "<group>"; };
 		11EBFC8AC838E56FF7FEE862C9E08697 /* Pods-starter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-starter-acknowledgements.plist"; sourceTree = "<group>"; };
 		17403CE2FEFBD581E1C929459D8869F6 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Extended/Classes/Color.swift; sourceTree = "<group>"; };
-		26AA433E32D0EB67F9C0734BB56C534F /* Extended.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Extended.framework; path = Extended.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AA433E32D0EB67F9C0734BB56C534F /* Extended.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extended.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA758B899965F6FDF8D77093DBC4745 /* DeviceOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceOrientation.swift; path = Extended/Classes/DeviceOrientation.swift; sourceTree = "<group>"; };
 		2F06995EF337C6F432CE944E78DB791E /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Extended/Classes/UIView.swift; sourceTree = "<group>"; };
 		3541B435519854122F638F29D33E576E /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Extended/Classes/Map.swift; sourceTree = "<group>"; };
@@ -74,14 +74,14 @@
 		7D438CAD4166E986F00131BAE6E374CF /* Pods-starter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-starter-frameworks.sh"; sourceTree = "<group>"; };
 		84E658900C8A92F19200166B06DCB859 /* Extended.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Extended.modulemap; sourceTree = "<group>"; };
 		92E24D0502697BD3FB418BB40584E865 /* Pods-starter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-starter-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		955DD56C0304F94C8C898206499F5676 /* Extended-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Extended-Info.plist"; sourceTree = "<group>"; };
 		959C45A9D4657341FA571653157F5621 /* Pods-starter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-starter-acknowledgements.markdown"; sourceTree = "<group>"; };
 		996528D677E6AD51376251EF6D0CFE5F /* Extended.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Extended.xcconfig; sourceTree = "<group>"; };
-		9F64BE6FC2ABC9E12342A5C0496CAFFD /* Designer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Designer.framework; path = Designer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F64BE6FC2ABC9E12342A5C0496CAFFD /* Designer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Designer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC41AD5E3948B8C41CCC76DF1B32E1E1 /* Extended-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Extended-dummy.m"; sourceTree = "<group>"; };
 		AF0C8CD6086D8FA24CCBFDD7353FD9AD /* Extended-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extended-prefix.pch"; sourceTree = "<group>"; };
-		B740851B5C43C3F835AEFDDB96DD7E89 /* Pods_starter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_starter.framework; path = "Pods-starter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B740851B5C43C3F835AEFDDB96DD7E89 /* Pods_starter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_starter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D92179F9882226B89AC5FDC83C9C32 /* UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = Extended/Classes/UILabel.swift; sourceTree = "<group>"; };
 		CD171678D37DF1BB1B5F71E11B7343B0 /* Double.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Double.swift; path = Extended/Classes/Double.swift; sourceTree = "<group>"; };
 		D0BD9A896FD0DD7B8E735AF37C451DBF /* Designer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Designer.xcconfig; sourceTree = "<group>"; };
@@ -219,7 +219,6 @@
 				4444EF0E092E82B074C9F395B9ECC827 /* UIViewController.swift */,
 				01BA35A802F75476EF9F75D238283F1B /* Support Files */,
 			);
-			name = Extended;
 			path = Extended;
 			sourceTree = "<group>";
 		};
@@ -247,7 +246,6 @@
 				E530C95400FCEF68A32E98F803A157A0 /* Designer.swift */,
 				875BE03BD794D4B65337777441E5D92A /* Support Files */,
 			);
-			name = Designer;
 			path = Designer;
 			sourceTree = "<group>";
 		};
@@ -344,7 +342,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -450,7 +448,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0BD9A896FD0DD7B8E735AF37C451DBF /* Designer.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -465,11 +462,7 @@
 				INFOPLIST_FILE = "Target Support Files/Designer/Designer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Designer/Designer.modulemap";
 				PRODUCT_MODULE_NAME = Designer;
 				PRODUCT_NAME = Designer;
@@ -548,7 +541,6 @@
 			baseConfigurationReference = 756702AF95E885D047BC4514F4BAEDF4 /* Pods-starter.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -562,11 +554,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-starter/Pods-starter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-starter/Pods-starter.modulemap";
 				OTHER_LDFLAGS = "";
@@ -576,8 +564,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -590,7 +577,6 @@
 			baseConfigurationReference = 5DD893B1FEE2797E617E39144A4CE202 /* Pods-starter.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -604,11 +590,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-starter/Pods-starter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-starter/Pods-starter.modulemap";
 				OTHER_LDFLAGS = "";
@@ -630,7 +612,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 996528D677E6AD51376251EF6D0CFE5F /* Extended.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -645,19 +626,14 @@
 				INFOPLIST_FILE = "Target Support Files/Extended/Extended-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Extended/Extended.modulemap";
 				PRODUCT_MODULE_NAME = Extended;
 				PRODUCT_NAME = Extended;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -734,7 +710,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0BD9A896FD0DD7B8E735AF37C451DBF /* Designer.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -749,19 +724,14 @@
 				INFOPLIST_FILE = "Target Support Files/Designer/Designer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Designer/Designer.modulemap";
 				PRODUCT_MODULE_NAME = Designer;
 				PRODUCT_NAME = Designer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -774,7 +744,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 996528D677E6AD51376251EF6D0CFE5F /* Extended.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -789,11 +758,7 @@
 				INFOPLIST_FILE = "Target Support Files/Extended/Extended-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Extended/Extended.modulemap";
 				PRODUCT_MODULE_NAME = Extended;
 				PRODUCT_NAME = Extended;

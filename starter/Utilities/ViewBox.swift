@@ -14,4 +14,8 @@ class ViewBox {
     lazy var home: HomeViewController = {
         return UIStoryboard(name: "Home", bundle: Bundle.main).instantiateViewController(withIdentifier: "Home") as! HomeViewController
     }()
+
+    lazy var privacy: PrivacyViewController = {
+    return UIStoryboard(name: "Privacy", bundle: Bundle.main).instantiateViewController(withIdentifier: "Privacy") as! PrivacyViewController
+    }()
 }

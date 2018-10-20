@@ -12,14 +12,16 @@ import Designer
 
 class ViewController: UIViewController, Designer {
 
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+
     // MARK: Outlets
     @IBOutlet weak var body: UIView!
-    @IBOutlet weak var statusBar: UIView!
     @IBOutlet weak var navBar: UIView!
     @IBOutlet weak var pageTitle: UILabel!
     @IBOutlet weak var navBarBackButton: UIButton!
     @IBOutlet weak var navBarHeight: NSLayoutConstraint!
-    @IBOutlet weak var statusBarHeight: NSLayoutConstraint!
 
     @IBOutlet weak var backIcon: UIImageView!
     // MARK: Constants
@@ -70,7 +72,6 @@ class ViewController: UIViewController, Designer {
     func style() {
         self.view.backgroundColor = Theme.Colors.main
         self.body.backgroundColor = Theme.Colors.main
-        self.statusBar.backgroundColor = Theme.Colors.main
         self.navBar.backgroundColor = Theme.Colors.main
         self.pageTitle.textColor = Theme.Colors.Text.navigationTitle
         self.pageTitle.font = Theme.Fonts.medium(size: 15)
@@ -83,8 +84,6 @@ class ViewController: UIViewController, Designer {
         self.view.layoutIfNeeded()
         UIView.animate(withDuration: presentationDuration) {
             self.pageTitle.alpha = 0
-            self.statusBar.alpha = 0
-            self.statusBarHeight.constant = 0
             self.navBarHeight.constant = 0
             self.view.layoutIfNeeded()
             //            DispatchQueue.main.async {
@@ -96,8 +95,6 @@ class ViewController: UIViewController, Designer {
     func showNav() {
         UIView.animate(withDuration: presentationDuration, animations: {
             self.pageTitle.alpha = 1
-            self.statusBar.alpha = 1
-            self.statusBarHeight.constant = 35
             self.navBarHeight.constant = 45
             self.view.layoutIfNeeded()
         }) { (done) in
@@ -159,7 +156,6 @@ class ViewController: UIViewController, Designer {
         /*
          let clone = getClone()
          */
-        setStatusBarAppearanceLight()
         if let current = self.currentViewController {
             self.remove(asChildViewController: current)
             //            self.body.addSubview(clone)

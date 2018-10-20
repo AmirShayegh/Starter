@@ -10,15 +10,6 @@ import Foundation
 import Designer
 
 extension Designer {
-
-    func setStatusBarAppearanceLight() {
-        UIApplication.shared.statusBarStyle = .lightContent
-    }
-
-    func setStatusBarAppearanceDark() {
-        UIApplication.shared.statusBarStyle = .default
-    }
-    
     func styleInput(field: UITextField, readOnly: Bool? = false) {
         field.textColor = Theme.Colors.Text.input
         field.font = Theme.Fonts.regular(size: 14)

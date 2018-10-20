@@ -16,4 +16,12 @@ extension ViewController {
         home.setup(containerVC: self)
         show(viewController: home)
     }
+
+    func showPrivacy() {
+        transitionOptions = [.showHideTransitionViews, leftTransitionAnimation]
+        let vb = ViewBox()
+        let vc = vb.privacy
+        vc.setup(containerVC: self)
+        show(viewController: vc)
+    }
 }

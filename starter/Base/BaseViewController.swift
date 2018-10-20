@@ -29,5 +29,10 @@ class BaseViewController: UIViewController, Designer {
     func setup(containerVC: UIViewController) {
         self.containerVC = containerVC
     }
+
+    func getContainer() -> ViewController? {
+        guard let containerVC = self.containerVC, let container = containerVC as? ViewController else {return nil}
+        return container
+    }
 }
 

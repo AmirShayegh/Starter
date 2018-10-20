@@ -10,6 +10,8 @@
 		299D3EA7217A9C780000781E /* Designer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299D3EA6217A9C780000781E /* Designer.swift */; };
 		299D3EA9217A9C970000781E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299D3EA8217A9C970000781E /* Theme.swift */; };
 		299D3EAB217AA2770000781E /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299D3EAA217AA2770000781E /* Presenter.swift */; };
+		299D3EAE217AA6820000781E /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299D3EAD217AA6820000781E /* PrivacyViewController.swift */; };
+		299D3EB0217AA68D0000781E /* Privacy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299D3EAF217AA68D0000781E /* Privacy.storyboard */; };
 		29D79D47217A995100855785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D79D46217A995100855785 /* AppDelegate.swift */; };
 		29D79D49217A995100855785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D79D48217A995100855785 /* ViewController.swift */; };
 		29D79D4C217A995100855785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D79D4A217A995100855785 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 		299D3EA6217A9C780000781E /* Designer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designer.swift; sourceTree = "<group>"; };
 		299D3EA8217A9C970000781E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		299D3EAA217AA2770000781E /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		299D3EAD217AA6820000781E /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		299D3EAF217AA68D0000781E /* Privacy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Privacy.storyboard; sourceTree = "<group>"; };
 		29D79D43217A995100855785 /* starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D79D46217A995100855785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29D79D48217A995100855785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				29D79D5F217A9AD400855785 /* HomeViewController.swift */,
+				299D3EAD217AA6820000781E /* PrivacyViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				29D79D5D217A9ABF00855785 /* Home.storyboard */,
+				299D3EAF217AA68D0000781E /* Privacy.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D79D51217A995400855785 /* LaunchScreen.storyboard in Resources */,
+				299D3EB0217AA68D0000781E /* Privacy.storyboard in Resources */,
 				29D79D4E217A995400855785 /* Assets.xcassets in Resources */,
 				29D79D4C217A995100855785 /* Main.storyboard in Resources */,
 				29D79D5E217A9ABF00855785 /* Home.storyboard in Resources */,
@@ -269,6 +276,7 @@
 				299D3EA7217A9C780000781E /* Designer.swift in Sources */,
 				299D3EAB217AA2770000781E /* Presenter.swift in Sources */,
 				29D79D47217A995100855785 /* AppDelegate.swift in Sources */,
+				299D3EAE217AA6820000781E /* PrivacyViewController.swift in Sources */,
 				29D79D59217A9A7700855785 /* ViewBox.swift in Sources */,
 				29D79D60217A9AD400855785 /* HomeViewController.swift in Sources */,
 				299D3EA9217A9C970000781E /* Theme.swift in Sources */,
